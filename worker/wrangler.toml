@@ -4,12 +4,12 @@ compatibility_date = "2026-07-22"
 
 [[kv_namespaces]]
 binding = "RATE_LIMIT"
-id = "REPLACE_WITH_PRODUCTION_KV_ID"
-preview_id = "REPLACE_WITH_PREVIEW_KV_ID"
+id = "a51b1ae5eabc4a21adbd640a72244222"
+preview_id = "886cb748e72440af87c33a21abd07c55"
 
 [[send_email]]
 name = "INTAKE_EMAIL"
-destination_address = "REPLACE_WITH_VERIFIED_DESTINATION_EMAIL"
+destination_address = "jryanlv@zoho.com"
 allowed_sender_addresses = ["intake@ryantrust.com"]
 
 [vars]
@@ -17,6 +17,6 @@ ALLOWED_ORIGINS = "https://ryantrust.com,https://www.ryantrust.com"
 ALLOWED_VERCEL_PROJECT = "tr1"
 ALLOWED_TURNSTILE_HOSTNAMES = "ryantrust.com,www.ryantrust.com"
 EMAIL_FROM = "intake@ryantrust.com"
-EMAIL_TO = "REPLACE_WITH_VERIFIED_DESTINATION_EMAIL"
+EMAIL_TO = "jryanlv@zoho.com"
 RATE_LIMIT_MAX = "5"
 RATE_LIMIT_WINDOW_SECONDS = "600"
