@@ -1,0 +1,22 @@
+name = "ryantrust-intake"
+main = "src/index.js"
+compatibility_date = "2026-07-22"
+
+[[kv_namespaces]]
+binding = "RATE_LIMIT"
+id = "REPLACE_WITH_PRODUCTION_KV_ID"
+preview_id = "REPLACE_WITH_PREVIEW_KV_ID"
+
+[[send_email]]
+name = "INTAKE_EMAIL"
+destination_address = "REPLACE_WITH_VERIFIED_DESTINATION_EMAIL"
+allowed_sender_addresses = ["intake@ryantrust.com"]
+
+[vars]
+ALLOWED_ORIGINS = "https://ryantrust.com,https://www.ryantrust.com"
+ALLOWED_VERCEL_PROJECT = "tr1"
+ALLOWED_TURNSTILE_HOSTNAMES = "ryantrust.com,www.ryantrust.com"
+EMAIL_FROM = "intake@ryantrust.com"
+EMAIL_TO = "REPLACE_WITH_VERIFIED_DESTINATION_EMAIL"
+RATE_LIMIT_MAX = "5"
+RATE_LIMIT_WINDOW_SECONDS = "600"

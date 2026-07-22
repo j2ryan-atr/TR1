@@ -1,1 +1,1 @@
-{"name":"ryantrust-nv","version":"1.0.0","private":true,"scripts":{"dev":"python3 -m http.server 8000","build":"python3 scripts/build.py"}}
+{"name":"ryantrust-nv","version":"1.0.0","private":true,"scripts":{"dev":"python3 -m http.server 8000","build":"python3 scripts/build.py","test":"python3 scripts/check_links.py && node --check assets/site.js && cd worker && npm test"}}
