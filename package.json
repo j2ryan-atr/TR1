@@ -1,0 +1,1 @@
+{"name":"ryantrust-nv","version":"1.0.0","private":true,"scripts":{"dev":"python3 -m http.server 8000","build":"python3 scripts/build.py"}}

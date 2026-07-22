@@ -1,0 +1,12 @@
+# Launch Checklist
+- [ ] Secure contact-form endpoint connected and tested
+- [ ] Conflict/confidentiality acknowledgment confirmed
+- [ ] Nevada advertising compliance reviewed against final deployed version
+- [ ] Attorney identity, licensing, address, phone, and trade name verified
+- [ ] Privacy notice matches analytics, hosting, CRM, scheduling, cookies, and embeds
+- [ ] Google Business Profile details match an eligible staffed office
+- [ ] Domain and redirects configured
+- [ ] Sitemap submitted to Search Console
+- [ ] Analytics conversion events tested
+- [ ] Mobile navigation and all links tested
+- [ ] Lighthouse and accessibility review completed
