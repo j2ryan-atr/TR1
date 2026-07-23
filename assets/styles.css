@@ -6,6 +6,20 @@
   font-display: swap;
 }
 @font-face {
+  font-family: "Bodoni Moda";
+  src: url("/assets/fonts/bodoni-moda-400.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Bodoni Moda";
+  src: url("/assets/fonts/bodoni-moda-400-italic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
   font-family: "Cormorant Garamond";
   src: url("/assets/fonts/cormorant-garamond-500.woff2") format("woff2");
   font-style: normal;
@@ -116,10 +130,13 @@ img {
   bottom: -4px;
 }
 .brand-name {
-  font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: 1.62rem;
-  font-weight: 500;
-  letter-spacing: 0.11em;
+  font-family: "Bodoni Moda", "Cormorant Garamond", Georgia, serif;
+  font-size: 1.55rem;
+  font-weight: 400;
+  letter-spacing: 0.075em;
+  font-feature-settings:
+    "liga" 1,
+    "kern" 1;
 }
 .brand-sub {
   display: block;
@@ -265,12 +282,49 @@ img {
   padding: 64px 36px 64px 0;
 }
 .hero-wordmark {
-  font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: clamp(4.5rem, 8vw, 7.2rem);
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  width: max-content;
+  padding: 0 0 0.22em;
+  font-family: "Bodoni Moda", "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(4.25rem, 7.5vw, 6.75rem);
   font-weight: 400;
-  line-height: 0.82;
-  letter-spacing: 0.015em;
+  line-height: 0.86;
+  letter-spacing: -0.035em;
   color: #25221f;
+  font-feature-settings:
+    "liga" 1,
+    "kern" 1;
+}
+.wordmark-ryan {
+  letter-spacing: -0.045em;
+}
+.wordmark-trust {
+  margin-left: 0.035em;
+  color: #6e5229;
+  font-style: italic;
+  letter-spacing: -0.055em;
+}
+.hero-wordmark::after {
+  content: "";
+  position: absolute;
+  left: 0.05em;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background: linear-gradient(90deg, #8f6a2d, #d7bd86 48%, transparent);
+}
+.hero-wordmark::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 22%;
+  bottom: -3px;
+  width: 7px;
+  height: 7px;
+  background: #b89452;
+  transform: rotate(45deg);
 }
 .hero-luxury h1 {
   margin: 1.8rem 0 1.35rem;
@@ -517,8 +571,10 @@ footer {
   gap: 40px;
 }
 .footer-title {
-  font-family: Georgia, serif;
-  font-size: 1.4rem;
+  font-family: "Bodoni Moda", "Cormorant Garamond", Georgia, serif;
+  font-size: 1.65rem;
+  font-style: italic;
+  letter-spacing: 0.045em;
   color: #fff;
 }
 .footer-links {
