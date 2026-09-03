@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 920" role="img" aria-labelledby="title desc">
+<title id="title">RyanTrust strategic knight composition</title>
+<desc id="desc">An abstract architectural composition with two sculptural chess knights and a restrained crowned R shield, representing strategic private-client legal counsel.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071018"/><stop offset=".55" stop-color="#0b1722"/><stop offset="1" stop-color="#03080d"/></linearGradient>
+  <linearGradient id="bronze" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f0d9a1"/><stop offset=".38" stop-color="#c99f56"/><stop offset="1" stop-color="#755225"/></linearGradient>
+  <linearGradient id="stone" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#34414a"/><stop offset=".45" stop-color="#17242d"/><stop offset="1" stop-color="#060c11"/></linearGradient>
+  <linearGradient id="stone2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#56616a"/><stop offset=".42" stop-color="#26333c"/><stop offset="1" stop-color="#0b1116"/></linearGradient>
+  <radialGradient id="halo"><stop offset="0" stop-color="#c99f56" stop-opacity=".18"/><stop offset="1" stop-color="#c99f56" stop-opacity="0"/></radialGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1600" height="920" fill="url(#bg)"/>
+<circle cx="1220" cy="360" r="420" fill="url(#halo)"/>
+<!-- architectural linework -->
+<g fill="none" stroke="#c99f56" stroke-opacity=".14">
+  <path d="M810 920V150Q810 72 890 72h500q80 0 80 78v770"/>
+  <path d="M940 920V250q0-95 95-95h255q95 0 95 95v670"/>
+  <path d="M1060 920V338q0-76 76-76h80q76 0 76 76v582"/>
+  <path d="M770 694H1518"/>
+  <path d="M736 728H1540" stroke-opacity=".07"/>
+</g>
+<!-- shield -->
+<g transform="translate(1262 190)">
+  <path d="M0 30 92 0l92 30v116c0 91-55 151-92 171C55 297 0 237 0 146Z" fill="#08131c" stroke="url(#bronze)" stroke-width="4"/>
+  <path d="M19 45 92 21l73 24v98c0 71-40 122-73 145-33-23-73-74-73-145Z" fill="none" stroke="#c99f56" stroke-opacity=".45"/>
+  <path d="m55 -13 20 17 17-26 18 26 20-17-8 33H63Z" fill="url(#bronze)"/>
+  <text x="92" y="174" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="118" fill="url(#bronze)">R</text>
+</g>
+<!-- large guardian knight: abstract sculptural silhouette -->
+<g transform="translate(980 235)">
+  <ellipse cx="252" cy="601" rx="232" ry="31" fill="#000" opacity=".38" filter="url(#soft)"/>
+  <path d="M145 570h255l25 45H112Z" fill="#071018" stroke="#c99f56" stroke-opacity=".35"/>
+  <path d="M172 516h199l29 54H145Z" fill="url(#stone)" stroke="#56616a" stroke-opacity=".35"/>
+  <path d="M211 435c-12-94 2-169 39-224 35-53 94-91 175-108-50 43-75 84-76 124 36 31 58 70 64 117-60-9-104-1-133 24-24 20-39 43-45 67Z" fill="url(#stone2)" stroke="#66727a" stroke-width="2"/>
+  <path d="M249 211c-22-60-11-118 33-174 47-59 113-76 198-50-71 19-118 48-140 87 58-3 108 17 150 61-60 6-111 29-153 69-27 26-47 60-59 103Z" fill="url(#stone)" stroke="#7d868d" stroke-opacity=".6" stroke-width="2"/>
+  <path d="M319 106c36 14 68 39 96 76-58 1-107 25-147 73 8-61 25-108 51-149Z" fill="#0a1218"/>
+  <circle cx="371" cy="104" r="6" fill="#d4b36c"/>
+  <path d="M218 416c62-18 123-16 183 7" fill="none" stroke="url(#bronze)" stroke-width="3" stroke-opacity=".55"/>
+  <path d="M188 516h190" stroke="#c99f56" stroke-opacity=".4"/>
+</g>
+<!-- smaller client knight -->
+<g transform="translate(820 495) scale(.68)">
+  <ellipse cx="250" cy="601" rx="220" ry="28" fill="#000" opacity=".28" filter="url(#soft)"/>
+  <path d="M145 570h255l25 45H112Z" fill="#071018" stroke="#c99f56" stroke-opacity=".3"/>
+  <path d="M172 516h199l29 54H145Z" fill="url(#stone)" stroke="#56616a" stroke-opacity=".28"/>
+  <path d="M211 435c-12-94 2-169 39-224 35-53 94-91 175-108-50 43-75 84-76 124 36 31 58 70 64 117-60-9-104-1-133 24-24 20-39 43-45 67Z" fill="url(#stone2)" stroke="#66727a" stroke-width="2"/>
+  <path d="M249 211c-22-60-11-118 33-174 47-59 113-76 198-50-71 19-118 48-140 87 58-3 108 17 150 61-60 6-111 29-153 69-27 26-47 60-59 103Z" fill="url(#stone)" stroke="#7d868d" stroke-opacity=".55" stroke-width="2"/>
+  <circle cx="371" cy="104" r="6" fill="#d4b36c"/>
+  <path d="M218 416c62-18 123-16 183 7" fill="none" stroke="url(#bronze)" stroke-width="3" stroke-opacity=".45"/>
+</g>
+<!-- restrained strategy grid -->
+<g stroke="#c99f56" stroke-opacity=".08"><path d="M720 820H1540"/><path d="M760 770H1510"/><path d="M820 720H1480"/><path d="M900 670H1450"/><path d="M980 620H1420"/></g>
+</svg>
